@@ -29,7 +29,7 @@ a {
     }
 
 .internal {
-    padding-left:40%;
+    padding-left:3%;
     display: block;
     background-color: #9e2a2b;
     text-align: left;
@@ -188,3 +188,28 @@ a {
     color: #9E2A2B;
     width: 100%;
 }
+
+@media only screen and (max-width: 900px) {
+    .grid-menu {
+        display: grid;
+        grid-template-columns: repeat(2, calc(50% - 18px));
+        grid-gap: 17px;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .grid-menu {
+            display: grid;
+            grid-template-columns: repeat(1, calc(100% - 8px));
+            grid-gap: 8px;
+            margin-left: 4%;
+            margin-right: 4%;
+        }
+        .content img{
+            width:300px;
+        }
+        .content p{
+            font-size:18px;
+        }
+    }
