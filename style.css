@@ -32,14 +32,14 @@ img{
 }
 .header-cont h1 {
     display: auto;
-    font-size: 100px;
+    font-size: 80px;
     padding-left: 10%;
     margin: 0px;
     font-family: 'Source Sans Pro', sans-serif;
 }
-.header-cont p{
+.header-cont h2{
     padding:0px;
-    font-size:32px;
+    font-size:20px;
     padding-left:10%;
     margin:0px;
     font-family:'Times New Roman';
@@ -48,10 +48,10 @@ img{
 
 .grid-title {
     display: block;
-    font-family: 'Agency FB';
+    font-family: 'Source Sans Pro', sans-serif;
     width: 100%;
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
     margin-top: 40px;
     margin-bottom: 35px;
     color: #E09F3E;
@@ -73,11 +73,12 @@ img{
     flex: 1;
     max-width: 100%;
     box-sizing: border-box;
+    
 }
 
-.grid-item1{
-    display:flex ;
-    flex-direction:column;
+.grid-item1 {
+    display: flex;
+    flex-direction: column;
 }
 
 .grid-item2 {
@@ -114,4 +115,40 @@ img{
     margin-top:15px;
     font-size: 20px;
     font-family:'Times New Roman';
+}
+.content {
+    margin-left: 10%;
+    margin-right:10%;
+    margin-bottom:100px;
+
+    text-align:justify;
+}
+.content h3{
+    font-size:40px;
+    margin-bottom:10px;
+    text-align:left;
+    
+}
+.content h4{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.content p{
+    font-size:20px;
+
+}
+.content1 img{
+    width:60%;
+  
+}
+.content2{
+    display:block;
+}
+.footer {
+    display: block;
+    background-color: #9E2A2B;
+    font-size:25px;
+    color: #9E2A2B;
+    width: 100%;
 }
