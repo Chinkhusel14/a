@@ -10,6 +10,39 @@ h1{margin:0px 0px;}
 img{
     border-radius:20px;
 }
+/*
+a:any-link {
+    color: #e09f3e;
+    text-decoration:none;
+}*/
+
+a {
+    text-decoration:none;
+    box-shadow: inset 0 0 0 0 white;
+    color: #e09f3e;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+    a:hover {
+        box-shadow: 50px 0 0 0 #9e2a2b;
+        color: #FFF3B0;
+    }
+
+.internal {
+    padding-left:40%;
+    display: block;
+    background-color: #9e2a2b;
+    text-align: left;
+  
+}
+
+.internal-link {
+    display: inline-block;
+    padding: 20px 20px;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 
 
 
@@ -27,8 +60,8 @@ img{
     display: block;
     width: 100%;
     color: #E09F3E;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
 }
 .header-cont h1 {
     display: auto;
@@ -37,13 +70,12 @@ img{
     margin: 0px;
     font-family: 'Source Sans Pro', sans-serif;
 }
-.header-cont h2{
-    padding:0px;
-    font-size:20px;
-    padding-left:10%;
-    margin:0px;
-    font-family:'Times New Roman';
-
+.header-cont h2 {
+    padding: 0px;
+    font-size: 20px;
+    padding-left: 10%;
+    margin: 0px;
+    font-family: 'Times New Roman';
 }
 
 .grid-title {
@@ -117,33 +149,37 @@ img{
     font-family:'Times New Roman';
 }
 .content {
-    margin-left: 10%;
-    margin-right:10%;
+    margin-left: 15%;
+    margin-right:22%;
     margin-bottom:100px;
 
     text-align:justify;
 }
-.content h3{
-    font-size:40px;
-    margin-bottom:10px;
-    text-align:left;
-    
-}
-.content h4{
-    font-size:40px;
-    margin-bottom:10px;
-}
+    .content h3 {
+        font-size: 40px;
+        margin-bottom: 10px;
+        text-align: left;
+        color: #e09f3e;
+    }
+    .content h4 {
+        font-size: 40px;
+        margin-bottom: 10px;
+        color: #e09f3e;
+    }
 
 .content p{
     font-size:20px;
 
 }
-.content1 img{
-    width:60%;
+.content img{
+    width:567px;
   
 }
 .content2{
     display:block;
+}
+.ice{
+    width:567px;
 }
 .footer {
     display: block;
